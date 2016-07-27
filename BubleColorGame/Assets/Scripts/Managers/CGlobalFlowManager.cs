@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CLevelPlanController : MonoBehaviour {
+public class CGlobalFlowManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

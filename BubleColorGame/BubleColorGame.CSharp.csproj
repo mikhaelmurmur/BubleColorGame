@@ -69,7 +69,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CLevelPlanController.cs" />
+    <Compile Include="Assets\Scripts\Controller\CLevelPlanController.cs" />
+    <Compile Include="Assets\Scripts\Controller\CObstaclesController.cs" />
+    <Compile Include="Assets\Scripts\Managers\CGameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\CGamePlayFlowManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\CGlobalFlowManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\CSoundManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
